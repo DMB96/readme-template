@@ -1,78 +1,69 @@
-# Product Name
-> Short blurb about what your product does.
+# ✨Farkle!
+> A dice game where players roll dice to score points, aiming to win!
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+![FARKLE]
 
-One to two paragraph statement about your product and what it does.
 
-![](header.png)
+A standard game of Farkle is played with a set of six, six-sided dice. With this project, students are going to create a digital version of the game. The official rules can be found at http://farkle.games/official-rules/
+
 
 ## Installation
 
-OS X & Linux:
-
+Java SDK:
+Java IDE
 ```sh
-npm install my-crazy-module --save
+(https://docs.oracle.com/javase/tutorial/)
 ```
 
-Windows:
 
-```sh
-edit autoexec.bat
-```
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+In Farkle, players take turns rolling dice and score points based on the combinations rolled. Players can choose to keep rolling to score more points or stop and bank their points. The first player to reach a set point total wins the game.To play the dice game Farkle, you typically need six dice, a pen, and paper. Players take turns rolling the dice, scoring points based on the combinations rolled. For instance, a single 1 is worth 100 points, a single 5 is worth 50 points, three of a kind is worth 100 times the number rolled (e.g., three 4s = 400 points), and so on. After each roll, the player sets aside scoring dice and can choose to roll the remaining non-scoring dice for more points. If a player rolls no scoring dice, they lose all points from that turn. The game continues until one player reaches a certain score threshold, typically 10,000 points.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+_For more examples and usage, please refer to the [Wiki][wiki]._(https://www.wikihow.com/Play-Farkle)
 
 ## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+✔-Set up your Java environment.
+-
+Make sure you have a Java Development Kit(JDK)
 
-```sh
-make install
-npm test
-```
+✔-Create a new Java Project.
+-
+Open your preferred Integrated Environment(IDE) ex: eclipse
+
+✔-Create a new Java Class.
+-
+(Name your java class with the associated name of the given project)
+
+✔-Copy/Paste Provided Farkle code into your workspace.
+-
+For: Windows/Mac(OS) (Select text, press "Command+C" to copy and "Command+V" to paste)
+For: Linux (Select text, press "Ctrl+Shift+C" to copy and "Ctrl+Shift+V" to paste)
+
+✔-Compile/Run the provided code.
+-
+You should be able to run the code and check for possible errors.
+🌠Congratulations, you can now start the game!🌠
+
+
+
+
+
 
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+04/28/2024
+1.0
 
-## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+## Contributiions
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+1. Jay Sinclair
+2. Drake Everett
+3. Destiny Ilori
+4. Ryan Foreman
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
 
-## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
